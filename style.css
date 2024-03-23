@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+.row{
+    line-height: 0;
+}
+.wall{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.sushi{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('img/sushi.png');
+    background-size: contain;
+}
+.onigiri{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('img/onigiri.png');
+    background-size: contain;
+}
+#ninjaman{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('img/ninja.gif');
+    background-size: contain;
+    position: absolute;
+
+}
+#red{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('img/red.gif');
+    background-size: contain;
+    position: absolute;
+
+}
+#pumpky{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('img/pumpky.gif');
+    background-size: contain;
+    position: absolute;
+
+}
+#pinky{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('img/pinky.gif');
+    background-size: contain;
+    position: absolute;
+
+}
+.blank{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
